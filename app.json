@@ -32,7 +32,10 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "expo-speech-recognition"
     ],
     "experiments": {
       "typedRoutes": true
