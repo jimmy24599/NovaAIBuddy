@@ -94,7 +94,7 @@ export default function HomeScreen() {
             {/* Notifications button */}
             <TouchableOpacity style={styles.iconButton}>
             <Image
-                source={{ uri: 'https://novabuddy.s3.eu-north-1.amazonaws.com/notification-bell.png' }} 
+                source={{ uri: '' }} 
                 style={styles.iconImage}
             />
             </TouchableOpacity>
@@ -102,7 +102,7 @@ export default function HomeScreen() {
             {/* Profile button */}
             <TouchableOpacity style={styles.profileButton} onPress={() => router.push('/profile')}>
             <Image
-                source={{ uri:'https://novabuddy.s3.eu-north-1.amazonaws.com/avatar.png' }}
+                source={{ uri:'' }}
                 style={styles.profileImage}
             />
             </TouchableOpacity>
@@ -131,7 +131,7 @@ export default function HomeScreen() {
                 item.isNew ? (
                   <TouchableOpacity style={styles.newBuddyCard} onPress={handleCreateBuddy}>
                     <Image
-                      source={{ uri: 'https://novabuddy.s3.eu-north-1.amazonaws.com/adduser.png' }} // ✅ Placeholder image for plus icon
+                      source={{ uri: '' }} //
                       style={styles.plusImage}
                     />
                     <Text style={styles.createBuddyText}>Create Buddy</Text>
