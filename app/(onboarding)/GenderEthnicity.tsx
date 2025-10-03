@@ -148,8 +148,8 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   cardSelected: {
-    borderColor: '#D8C8F0',     // Soft purple border
-    backgroundColor: '#F3EFFF', // Very light lilac background
+    borderColor: '#D8C8F0',     
+    backgroundColor: '#F3EFFF', 
   },
   cardText: {
     fontSize: 16,
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   cardTextSelected: {
-    color: '#8A6FCB',            // deeper sky blue text
+    color: '#8A6FCB',           
     fontWeight: '700',
   },
   button: {
