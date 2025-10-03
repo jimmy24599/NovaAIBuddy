@@ -5,7 +5,7 @@ import { useAuth } from '@clerk/clerk-expo';
 import axios from 'axios';
 import LottieView from 'lottie-react-native';
 
-const BACKEND_URL = 'http://192.168.1.116:3000/create-buddy'; 
+const BACKEND_URL = 'http://localhost:3000/create-buddy'; 
 
 export default function ConfirmBuddyScreen() {
   const router = useRouter();
