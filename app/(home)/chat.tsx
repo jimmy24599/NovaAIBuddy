@@ -141,7 +141,7 @@ export default function ChatScreen() {
         const newCount = prev + 1;
         if (newCount >= 3) {
           axios.post(
-            "http://192.168.1.118:3000/summarize-memory",
+            "url:3000/summarize-memory",
             { buddyId },
             { headers: { Authorization: `Bearer ${token}` } }
           );
@@ -205,7 +205,7 @@ export default function ChatScreen() {
      
         <TouchableOpacity  style={{right:10}}>
           <Image
-            source={{ uri: 'https://novabuddy.s3.eu-north-1.amazonaws.com/phone-call.png' }} // 👈 replace with your mic image later
+            source={{ uri: 'https://novabuddy.s3.eu-north-1.amazonaws.com/phone-call.png' }} 
             style={{ width: 30, height: 30 }}
             resizeMode="contain"
           />
